@@ -176,7 +176,7 @@ Cada tarefa: fazer → testar como indicado → commit → marcar `[x]`.
   *Confirmar:* `npm run dev` mostra uma página "Plus Contas — Faturas" em `localhost:3000`; `npm test` corre (0 testes, sem erros); `git status` não mostra nenhum `.env.local`.
 - [x] **0.3** Criar o projeto Supabase (plano gratuito, **região UE**) e pôr as chaves no `.env.local`.
   *Confirmar:* uma página de teste consegue ler da base de dados sem erro.
-- [ ] **0.4** Ligar o repositório à Netlify. Produção = ramo `main`. Pôr as variáveis de ambiente na Netlify.
+- [x] **0.4** Ligar o repositório à Netlify. Produção = ramo `main`. Pôr as variáveis de ambiente na Netlify.
   *Confirmar:* o endereço `…netlify.app` mostra a página no telemóvel.
 - [ ] **0.5** Resend: criar conta e verificar o domínio `pluscontas.com` (registos DNS no sítio onde o domínio foi comprado; o Claude Code dá as linhas exatas). Configurar o **SMTP personalizado** do Supabase Auth com o Resend. Remetente: `faturas@pluscontas.com`.
   *Confirmar:* o Resend mostra o domínio como "Verified", e um email de teste chega à caixa de entrada (não ao spam).

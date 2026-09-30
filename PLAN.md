@@ -174,7 +174,7 @@ Cada tarefa: fazer → testar como indicado → commit → marcar `[x]`.
   *Confirmar:* os dois ficheiros aparecem no GitHub.
 - [x] **0.2** Criar o projeto Next.js + TypeScript + Tailwind + ESLint + Vitest, com `.gitignore` a incluir `.env*` (exceto `.env.example`), e criar o `.env.example` só com nomes de variáveis.
   *Confirmar:* `npm run dev` mostra uma página "Plus Contas — Faturas" em `localhost:3000`; `npm test` corre (0 testes, sem erros); `git status` não mostra nenhum `.env.local`.
-- [ ] **0.3** Criar o projeto Supabase (plano gratuito, **região UE**) e pôr as chaves no `.env.local`.
+- [x] **0.3** Criar o projeto Supabase (plano gratuito, **região UE**) e pôr as chaves no `.env.local`.
   *Confirmar:* uma página de teste consegue ler da base de dados sem erro.
 - [ ] **0.4** Ligar o repositório à Netlify. Produção = ramo `main`. Pôr as variáveis de ambiente na Netlify.
   *Confirmar:* o endereço `…netlify.app` mostra a página no telemóvel.

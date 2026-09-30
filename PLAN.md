@@ -170,9 +170,9 @@ Cada tarefa: fazer → testar como indicado → commit → marcar `[x]`.
 
 ### Fase 0 — Preparar tudo (sem código da aplicação)
 
-- [ ] **0.1** Criar o repositório privado `pluscontas-faturas` no GitHub e colocar `PLAN.md` e `CLAUDE.md` na raiz.
+- [x] **0.1** Criar o repositório privado `pluscontas-faturas` no GitHub e colocar `PLAN.md` e `CLAUDE.md` na raiz.
   *Confirmar:* os dois ficheiros aparecem no GitHub.
-- [ ] **0.2** Criar o projeto Next.js + TypeScript + Tailwind + ESLint + Vitest, com `.gitignore` a incluir `.env*` (exceto `.env.example`), e criar o `.env.example` só com nomes de variáveis.
+- [x] **0.2** Criar o projeto Next.js + TypeScript + Tailwind + ESLint + Vitest, com `.gitignore` a incluir `.env*` (exceto `.env.example`), e criar o `.env.example` só com nomes de variáveis.
   *Confirmar:* `npm run dev` mostra uma página "Plus Contas — Faturas" em `localhost:3000`; `npm test` corre (0 testes, sem erros); `git status` não mostra nenhum `.env.local`.
 - [ ] **0.3** Criar o projeto Supabase (plano gratuito, **região UE**) e pôr as chaves no `.env.local`.
   *Confirmar:* uma página de teste consegue ler da base de dados sem erro.

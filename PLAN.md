@@ -178,7 +178,7 @@ Cada tarefa: fazer → testar como indicado → commit → marcar `[x]`.
   *Confirmar:* uma página de teste consegue ler da base de dados sem erro.
 - [x] **0.4** Ligar o repositório à Netlify. Produção = ramo `main`. Pôr as variáveis de ambiente na Netlify.
   *Confirmar:* o endereço `…netlify.app` mostra a página no telemóvel.
-- [ ] **0.5** Resend: criar conta e verificar o domínio `pluscontas.com` (registos DNS no sítio onde o domínio foi comprado; o Claude Code dá as linhas exatas). Configurar o **SMTP personalizado** do Supabase Auth com o Resend. Remetente: `faturas@pluscontas.com`.
+- [x] **0.5** Resend: criar conta e verificar o domínio `pluscontas.com` (registos DNS no sítio onde o domínio foi comprado; o Claude Code dá as linhas exatas). Configurar o **SMTP personalizado** do Supabase Auth com o Resend. Remetente: `faturas@pluscontas.com`.
   *Confirmar:* o Resend mostra o domínio como "Verified", e um email de teste chega à caixa de entrada (não ao spam).
 - [ ] **0.6** Anthropic Console: criar conta de API, pôr **limite de gasto de 5 €/mês** e guardar a chave no `.env.local` e na Netlify.
   *Confirmar:* o limite aparece nas definições de faturação da Console.

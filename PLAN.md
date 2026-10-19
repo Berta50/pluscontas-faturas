@@ -190,7 +190,7 @@ Cada tarefa: fazer → testar como indicado → commit → marcar `[x]`.
 
 - [x] **1.1** Criar as tabelas `profiles`, `companies`, `company_members`, `staff_assignments`, `invoices`, `invoice_files`, com migrações na pasta `supabase/migrations`. Por agora só os campos básicos da fatura: empresa, quem enviou, nota, data, `review_status`.
   *Confirmar:* as tabelas aparecem no painel do Supabase.
-- [ ] **1.2** Ativar o RLS e escrever as regras de acesso (o cliente só vê as suas empresas, o admin vê tudo). Escrever um teste que confirma que o cliente A **não** vê as faturas da empresa B.
+- [x] **1.2** Ativar o RLS e escrever as regras de acesso (o cliente só vê as suas empresas, o admin vê tudo). Escrever um teste que confirma que o cliente A **não** vê as faturas da empresa B.
   *Confirmar:* o teste passa.
 - [ ] **1.3** Criar a conta de admin da Berta (manualmente no Supabase + `role = admin`) e o ecrã de **login** (email + palavra-passe, sessão persistente).
   *Confirmar:* a Berta entra no telemóvel, fecha o browser, volta a abrir, e continua com sessão iniciada.

@@ -188,7 +188,7 @@ Cada tarefa: fazer → testar como indicado → commit → marcar `[x]`.
 ### Fase 1 — Versão mínima publicável: enviar e ver faturas
 *No fim desta fase o cliente de teste já pode deixar de usar o email e o WhatsApp.*
 
-- [ ] **1.1** Criar as tabelas `profiles`, `companies`, `company_members`, `staff_assignments`, `invoices`, `invoice_files`, com migrações na pasta `supabase/migrations`. Por agora só os campos básicos da fatura: empresa, quem enviou, nota, data, `review_status`.
+- [x] **1.1** Criar as tabelas `profiles`, `companies`, `company_members`, `staff_assignments`, `invoices`, `invoice_files`, com migrações na pasta `supabase/migrations`. Por agora só os campos básicos da fatura: empresa, quem enviou, nota, data, `review_status`.
   *Confirmar:* as tabelas aparecem no painel do Supabase.
 - [ ] **1.2** Ativar o RLS e escrever as regras de acesso (o cliente só vê as suas empresas, o admin vê tudo). Escrever um teste que confirma que o cliente A **não** vê as faturas da empresa B.
   *Confirmar:* o teste passa.

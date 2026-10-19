@@ -192,7 +192,7 @@ Cada tarefa: fazer → testar como indicado → commit → marcar `[x]`.
   *Confirmar:* as tabelas aparecem no painel do Supabase.
 - [x] **1.2** Ativar o RLS e escrever as regras de acesso (o cliente só vê as suas empresas, o admin vê tudo). Escrever um teste que confirma que o cliente A **não** vê as faturas da empresa B.
   *Confirmar:* o teste passa.
-- [ ] **1.3** Criar a conta de admin da Berta (manualmente no Supabase + `role = admin`) e o ecrã de **login** (email + palavra-passe, sessão persistente).
+- [x] **1.3** Criar a conta de admin da Berta (manualmente no Supabase + `role = admin`) e o ecrã de **login** (email + palavra-passe, sessão persistente).
   *Confirmar:* a Berta entra no telemóvel, fecha o browser, volta a abrir, e continua com sessão iniciada.
 - [ ] **1.4** Ecrã **Admin › Empresas**: criar e editar empresas (nome, NIF).
   *Confirmar:* criar a empresa do cliente de teste.

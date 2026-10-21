@@ -198,7 +198,7 @@ Cada tarefa: fazer → testar como indicado → commit → marcar `[x]`.
   *Confirmar:* criar a empresa do cliente de teste.
 - [x] **1.5** Ecrã **Admin › Pessoas**: convidar uma pessoa por email e ligá-la a uma ou mais empresas. Criar a página **"Definir palavra-passe"** para onde o convite leva.
   *Confirmar:* convidar um email teu → chega o convite → defines a palavra-passe → entras e vês o ecrã de cliente.
-- [ ] **1.6** Ecrã do cliente **Enviar fatura**:
+- [x] **1.6** Ecrã do cliente **Enviar fatura**:
   - escolher a empresa (só aparece se tiver mais do que uma);
   - botões "Tirar foto" (várias páginas, com pré-visualização e possibilidade de remover uma) e "Escolher ficheiro" (PDF ou imagens);
   - nota obrigatória com mínimo de 3 palavras;

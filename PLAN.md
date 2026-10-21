@@ -205,7 +205,7 @@ Cada tarefa: fazer → testar como indicado → commit → marcar `[x]`.
   - compressão das fotos antes do envio;
   - envio para o armazenamento privado.
   *Confirmar:* no telemóvel, enviar uma fatura de 2 páginas e um PDF; ambos aparecem no Supabase (1 fatura com 2 ficheiros, e 1 fatura com 1 PDF). Tentar enviar sem nota mostra um erro claro.
-- [ ] **1.7** Ecrã do cliente **As minhas faturas**: todas as faturas da(s) empresa(s), com data, nota, quem enviou e o estado, em português. Botão **Apagar** só enquanto o estado for "Enviada".
+- [x] **1.7** Ecrã do cliente **As minhas faturas**: todas as faturas da(s) empresa(s), com data, nota, quem enviou e o estado, em português. Botão **Apagar** só enquanto o estado for "Enviada".
   *Confirmar:* uma segunda pessoa da mesma empresa vê as faturas da primeira; uma pessoa de outra empresa não vê.
 - [ ] **1.8** Ecrã **Admin › Faturas**: lista de todas as faturas (filtro por empresa e estado); ao abrir uma, mostra as páginas (link temporário) e a nota; botão provisório **"Marcar como tratada"**.
   *Confirmar:* a Berta vê a fatura enviada no 1.6, abre as fotos e marca-a como tratada; o cliente passa a ver "Tratada".

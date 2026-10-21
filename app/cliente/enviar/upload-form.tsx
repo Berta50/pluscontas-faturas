@@ -183,7 +183,7 @@ export function UploadInvoiceForm({ companies, defaultCompanyId }: Props) {
           A fatura foi guardada no sistema e já está disponível para análise pelo escritório.
         </p>
 
-        <div className="mt-6">
+        <div className="mt-6 flex flex-col gap-2.5">
           <button
             type="button"
             onClick={handleReset}
@@ -191,6 +191,13 @@ export function UploadInvoiceForm({ companies, defaultCompanyId }: Props) {
           >
             + Enviar Outra Fatura
           </button>
+
+          <a
+            href="/cliente/faturas"
+            className="inline-flex w-full items-center justify-center rounded-xl border border-zinc-200 bg-white px-4 py-3 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
+          >
+            Ver As Minhas Faturas
+          </a>
         </div>
       </div>
     );
